@@ -1,7 +1,8 @@
-export function Greeting() {
-  return <h1>Componente de React</h1>;
+export function Greeting({title, name = "User"}) {
+  return <h1>{title}, dice {name}</h1>;
 }
 
-export function UserCard() {
+export function UserCard(props) {
+  console.log(props)
   return <h1>User Card</h1>;
 }
