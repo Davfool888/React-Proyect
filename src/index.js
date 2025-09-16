@@ -10,12 +10,13 @@ root.render(
     <UserCard
       name="Ryan Ray"
       amount={1000}
-      married={true}
+      married={false}
       points={[99, 22.2, 77]}
       address={{
         street: "123 Main Street",
         city: "Bogotá",
       }}
+      greet={function(){alert("Holaaaaaaa")}}
     />
   </>
 );
