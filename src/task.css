@@ -3,3 +3,12 @@
     color:rgb(28, 29, 30);
     padding:10px;
 }
+
+.bg_red {
+    background-color: red ;
+}
+
+.bg_green {
+    background-color:green ;
+    color: aliceblue;
+}
