@@ -2,12 +2,21 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Greeting, UserCard } from "./Greeting";
 import Product, { Navbar } from "./Product";
-
+import { Button } from "./button";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+
+
+// Hola mundo
 root.render(
   <>
-    <UserCard
+
+  <Button text="Click me"/>
+  <Button text="Pagar"/>
+  <Button text="Go to"/>
+
+  {/* Holaa */}
+    {/* <UserCard
       name="Ryan Ray"
       amount={1000}
       married={false}
@@ -17,6 +26,7 @@ root.render(
         city: "Bogotá",
       }}
       greet={function(){alert("Holaaaaaaa")}}
-    />
+    /> */}
+    
   </>
 );
